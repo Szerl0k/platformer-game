@@ -14,20 +14,20 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(fmt)
 FetchContent_MakeAvailable(sfml)
-add_executable(GraPlatformowa main.cpp
-        Global.hpp
-        Satyr.cpp
-        Satyr.hpp
-        MapManager.cpp
-        MapManager.hpp
-        GlobalMethods.cpp
-        GlobalMethods.hpp
-        Enemy.cpp
-        Enemy.hpp
-        Projectile.cpp
-        Projectile.hpp
-        Character.cpp
-        Character.hpp
+add_executable(GraPlatformowa Source/main.cpp
+        Source/Global.hpp
+        Source/Satyr.cpp
+        Source/Satyr.hpp
+        Source/MapManager.cpp
+        Source/MapManager.hpp
+        Source/GlobalMethods.cpp
+        Source/GlobalMethods.hpp
+        Source/Enemy.cpp
+        Source/Enemy.hpp
+        Source/Projectile.cpp
+        Source/Projectile.hpp
+        Source/Character.cpp
+        Source/Character.hpp
 )
 target_link_libraries(
         GraPlatformowa

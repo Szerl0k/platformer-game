@@ -3,9 +3,9 @@
 #include <vector>
 #include <cmath>
 #include <chrono>
-#include <SFML/Graphics.hpp>
+#include "SFML/Graphics.hpp"
 
-#include <fmt/core.h>
+#include "fmt/core.h"
 
 #include "Satyr.hpp"
 #include "Enemy.hpp"

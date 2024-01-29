@@ -6,7 +6,7 @@
 #include "Global.hpp"
 #include "MapManager.hpp"
 
-#include <fmt/core.h>
+#include "fmt/core.h"
 #include "SFML/Graphics.hpp"
 
 // Klasa jest inspirowana kodem z https://github.com/Kofybrek/Super-Mario-Bros/blob/Main/Source/Headers/MapManager.hpp
